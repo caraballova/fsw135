@@ -11,7 +11,7 @@ export default function App() {
   const { token } = useContext(UserContext)
   return (
     <div classname='app'>
-      { token && <Navbar />}
+      <Navbar />
       <Switch>
         <Route
           exact path='/'

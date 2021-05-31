@@ -19,7 +19,7 @@ export default function Profile(){
       <h3>Add A Comment</h3>
       <CommentForm addComment={addComment}/>
       <h3>Your Comments</h3>
-      <CommentList Comments={Comments}/>
+      <CommentList Comments={Comment}/>
       
     </div>
   )
